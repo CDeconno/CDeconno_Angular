@@ -8,7 +8,66 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
-  <p>HOLA</p>>
+  	<app-root></app-root>
+	<app-header></app-header>
+	<app-carrusel-principal></app-carrusel-principal>
+
+	<div class="container">
+	  <h2>Consulta de precios</h2>
+	  <p>Aqui puedes consultar los diferentes precios que ofrecemos</p>            
+	  <table class="table table-striped">
+	    <thead>
+	      <tr>
+	        <th>Marcas</th>
+	        <th>Tallas</th>
+	        <th>Precios</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr>
+	        <td>Adidas</td>
+	        <td>Desde 40 a 43</td>
+	        <td>Desde los 60$</td>
+	      </tr>
+	      <tr>
+	        <td>Nike</td>
+	        <td>Desde 38 a 45</td>
+	        <td>Desde los 80$</td>
+	      </tr>
+	      <tr>
+	        <td>Vans</td>
+	        <td>Desde 35 a 40</td>
+	        <td>Desde los 50$</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	</div>
+
+	<div class="container">
+	  <h2>Preferencia de los usuarios el ultimo mes</h2>
+
+	  	<div class="container">
+		  <p>Adidas </p>
+		  <div class="progress">
+		    <div class="progress-bar" style="width:50%">50%</div>
+		  </div>
+		</div>
+
+		<div class="container">
+		  <p>Nike </p>
+		  <div class="progress">
+		    <div class="progress-bar" style="width:30%">30%</div>
+		</div>
+
+		<div class="container">
+		  <p>Vans </p>
+		  <div class="progress">
+		    <div class="progress-bar" style="width:20%">20%</div>
+		</div>
+
+	</div>
+
+	<app-carrusel-footer></app-carrusel-footer>  
+	<p>HOLA</p>>
 </body>
 </html>
